@@ -3,7 +3,7 @@ Erik Axlings Blog
 
 This is the Jekyll source for Erik Axlings blog.
 
-It was based(shamelessly ripped off) off of [Scott Chacons](http://chacon.github.com/) and Michael Bleigh's blog and website, [Mister Bleigh](http://www.mbleigh.com/), and he gets fullcredit for everything that is good looking or impressive about this site.
+It was based(shamelessly ripped off) off of [Scott Chacon's](http://schacon.github.com/) and Michael Bleigh's blog and website, [Mister Bleigh](http://www.mbleigh.com/), and he gets fullcredit for everything that is good looking or impressive about this site.
 
 It makes some nice use of Jekyll's liquid templating system (see blog.html) and uses Javscript to pull information from GitHub for the open-source section.
 
