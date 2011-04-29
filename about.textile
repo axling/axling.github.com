@@ -5,4 +5,6 @@ layout: master
 
 h2. About Erik Axling	
 
-A dude.
+Father, Husband, Programmer, Engineer or just a dude who likes to code on the few moments he get left over of the day. With ambitions of money in sight he sets sail and tries to implement all kinds of ideas that resides in his head. 
+
+You might know him from such famous applications as "My Pregnancy CountDown":https://market.android.com/details?id=se.axling.pregnancycountdown or the facebookapp "Pajas!":http://apps.facebook.com/pajaspoint/.

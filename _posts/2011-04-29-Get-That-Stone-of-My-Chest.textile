@@ -1,0 +1,26 @@
+---
+layout: post
+title: Get That Stone of My Chest
+---
+
+So for this first post I will give a small introduction of who I am and why I am writing a blog. I am an engineer by day working with telecom software and a "hacker" by night. And by hacker I don't mean hacker as in "Hackers":http://www.imdb.com/title/tt0113243/ but as in a dude who's having fun trying to implement the ideas in his head. Im not really methodical and I can't say that I solve my problems in an engineering kinda way. I try to solve problems best I can.
+
+I like programming and I see programming languages as tools. But some tools are better than others, I especially like erlang for it's simplicity and the fact that it is a functional language. It has great concurrency and it is very easy to prototype stuff with. I have also dabbled around with Python(especially Django) and Java a bit. 
+
+My main focus seems to be developing web applications. I guess I am driven to make stuff that many people can use, and web applications is one of the best ways to reach out the people. I'm also driven by a the simple urge to earn money(which I will elaborate on some other time). I want to score a great idea and be able to live off that. If I in the process of getting there can learn a thing or two, then I think I have acheived quite alot. 
+
+One of the first big solo projects that I started on was "Stocks":https://github.com/axling/Stocks. After graduating from the university I developed an interest in stocks and thought that with my newly learned theory and programming skills I could rock the stock market. 
+
+My first experiment was programming a simple stock simulator and trying to find the perfect moments to buy and sell according to some slope on the stock quote curve. I used a "genetic algorithm":http://en.wikipedia.org/wiki/Genetic_algorithm to optimize this - which really is pretty ineffective, you get a result but could get an equal result in a much quicker time with another algorithm - and got some promising results. But I only tested this on one stock. I did not at that time have access to any other data.
+
+For some reason I put the project on hold(probably has something to do with the fact that I got my first child). About a year ago I decided to start again and this time I was dead set on getting some data. I looked around and found two sources for data on the internet, text-tv and Nasdaq OMX. From Nasdaq OMX I could get historical prices and therefore I developed a crawler that could fetch all data for the stocks I wanted. 
+
+With all this new data I wondered what to do next. After a failed neural network experiment I started reading up on "Technical Analysis":http://en.wikipedia.org/wiki/Technical_analysis and decided to implement a bunch of those indicators. Back then technical analysis sounded right to me, because I wanted a way to predic the stock market without any knowledge of the company behind the stock itself. After having experimented with the indicators I am pretty convinced that you wont get far with just technical analysis, you will need alot of "Fundamental Analysis":http://en.wikipedia.org/wiki/Fundamental_analysis too. That means checking into financial statements, balance sheets and those kinds of documents. Which I wont do, yet at least.
+
+I then started where I first left off. Maybe I could try to find some optimal trading strategy based on the slope of the stock curve? I now had more data to experiment on and got to work. I implemented two optimising algorithm which I could use beside genetic algorithms, simple "hill climbing":http://en.wikipedia.org/wiki/Hill_climbing and "simulated annealing":http://en.wikipedia.org/wiki/Simulated_annealing which both are global optimization algorithm that can be usedto search a large search space. When I tested this I got some pretty encouraging results on some stocks, under 10 years I could get a 200% increase for example. But then I tested that against just buying the stock and holding on to it under the same time. I got about the same results... I felt so fucking stupid at that point. 
+
+But I have learned something from this. I could probably go on and refine my algorithms and try other strategies but I have to realise the fact that this is useless. There are probably hundreds(maybe thousands?) of engineers throughout the world that have gone into the same pitfall and think they can solve this. Graduate students are doing research on many universities, why would I do better? I think I can put my energy on other stuff where I can be more successful.
+
+That being said I will still continue my work on stocks, but from another angle. I will put my energy on using the data I have and try to create a web application for a community instead. Mostly because I want to make an application that uses the benefits and strengths of erlang, and to learn HTML 5 for the future. I will make the web application distributable and will utilise websockets for a nice user experience. But I will talk more about this some other time.
+
+A tip for the stock market... Buy a stock of a big company that is unlikely to die and hold on to that, you will most likely get rich(in the end) by doing that.
