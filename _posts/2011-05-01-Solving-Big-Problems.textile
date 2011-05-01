@@ -1,0 +1,22 @@
+---
+layout: post
+title: Solving Big Problems
+---
+
+I've started working on a new solution for the "Stocks":https://github.com/axling/Stocks application. I will make the following concepts:
+
+* A stock quote fetcher that will fetch quotes from different sources depending on the availability.
+
+* An alarm manager that will keep track of when to update the quotes.
+
+* A new application for the presentation of the stock data. This will be a "yaws":http://yaws.hyber.org/ application. The presentation will be stateless. I aim for using several yaws instances that could be used for load balancing.
+
+* A new database handling that will use "riak":http://wiki.basho.com/
+
+* A new logging application that will log to file. Very simple logging to start with. I want this working as fast as possible as I will need it when trouble shooting.
+
+Now I know that this is a lot and most is really unnecessary, I mean I won't have any traffic to load balance. Why not go simple and use mysql? Well I'm doing this mostly to educate myself. I really boils down to making an application that is really fault tolerant, distributed, efficient and nice to use. It's also a great way to learn about distribution in erlang and nice tools like riak and yaws. I want to make an application that I can feel really proud of. 
+
+But it is still a heck of a lot to do. Right now I'm a bit stuck where to start. But I want to get something working quickly or I will get bored. I've chosen the I feel is best for me. I will start with the problem top down. Trying to get the functions closest to me as an administrator to work and then try to implement the functionality that I have invented in the lower layers. Basically I'm writing the top function and inventing functions there on the spot for small problems that I don't want to think about right now. It's always a lot easier to solve those problems later when you don't have to think about the higher up stuff.
+
+The top down method also means that I have to be careful what I name the functions to because I will most likely be stuck with those names and the methodology they imply. I'm to lazy to change them afterwards.
