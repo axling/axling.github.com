@@ -3,12 +3,12 @@ layout: post
 title: Pajas!
 ---
 
-I've now uploaded a "project":https://github.com/axling/Pajas to github that I came up with early this year. We had a list where we keeped track of the buffonery or just silly things that some of us did. Stuff that made all of us, even the person in question, laugh. It was perfectly harmless and also a way to show that we aren't perfect. Pajas means clown in swedish.
+I've now uploaded a "project":https://github.com/axling/Pajas to github that I came up with early this year. We had a list where we kept track of the buffoonery or just silly things that some of us did. Stuff that made all of us, even the person in question, laugh. It was perfectly harmless and also a way to show that we aren't perfect. Pajas means clown in Swedish.
 
 Early this year I was looking for a project where I could make a social application. Something that needed interaction between people. And in my mind came the idea to make a web application of this list. I thought that this could be something that friends could be use amongst themselves. 
 
 My first idea was to use "OpenId":http://openid.net/ to make sure that most users on the web could access the site. I wanted a way to host the site and I went with making it a Google Appengine application. While researching for good info on how to use OpenId and appengine I happened to find a tutorial on making a facebook app. It seemed easy and to be honest, if you are going to make a social application today you will probably in some way rely or use facebook. My initial idea was to have some facebook integration(like buttons, posting etc..) anyway so why not go all the way?
 
-I based the app on the tutorial on "Run with Friends":http://developers.facebook.com/docs/samples/canvas/ which was pretty good. There is some tricky handling that is needed to authenticate with Facebook that Run with Friends fixed. The initial contact with facebook will be a post whos data is encrypted using your apps api secret.
+I based the app on the tutorial on "Run with Friends":http://developers.facebook.com/docs/samples/canvas/ which was pretty good. There is some tricky handling that is needed to authenticate with Facebook that Run with Friends fixed. The initial contact with facebook will be a post whose data is encrypted using your apps API secret.
 
 Check out the repo and if you have a facebook account you can check out "Pajas!":http://apps.facebook.com/pajaspoint at facebook. Enjoy!
