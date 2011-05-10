@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8"/>
     <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
     <script src="/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20409533-3']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
   </head>
   <body>
     <div id='wrapper'>
@@ -41,5 +50,6 @@
         var pageTracker = _gat._getTracker("UA-82337-14");
         pageTracker._trackPageview();
         } catch(err) {}</script> -->
+    
   </body>
 </html>
